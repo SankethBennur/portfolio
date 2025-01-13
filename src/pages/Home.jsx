@@ -1,21 +1,43 @@
 import React from "react";
 
-import TopSection from "./sections/TopSection";
-import MiddleSection from "./sections/MiddleSection";
-
-import { Grid2 } from "@mui/material";
+import "./Home.css";
 
 function Home() {
 	return (
-		<Grid2
-			container
-			direction="column"
-			sx={{
-				height: "100vh",
-			}}>
-			<TopSection />
-			<MiddleSection />
-		</Grid2>
+		<div className="home">
+			{/* Right Column */}
+			<div className="home-right-column">
+				{/* Image */}
+				<div>Image</div>
+
+				{/* Skills */}
+				<div>Skills</div>
+			</div>
+
+			{/* Content */}
+			<div className="home-content">
+				{/* Top section */}
+				<div className="home-content-top">
+					{/* Greetings */}
+					<div>Greetings</div>
+
+					{/* Certifications */}
+					<div>Certifications</div>
+
+					{/* Education */}
+					<div>Education</div>
+				</div>
+
+				{/* Middle section */}
+				<div className="home-content-middle">
+					{/* Experience */}
+					<div>Experience</div>
+
+					{/* Projects */}
+					<div>Projects</div>
+				</div>
+			</div>
+		</div>
 	);
 }
 

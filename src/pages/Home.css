@@ -1,0 +1,33 @@
+.home {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+}
+
+.home-right-column {
+	width: 30%;
+}
+
+.home-content {
+	width: 70%;
+	/*
+	@media (max-width: 600px)
+	{}
+	Possible only in SCSS - sass
+	*/
+}
+
+/* Again, top row is made same height, as width of right column */
+.home-content-top {
+	height: 30%;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+
+.home-content-middle {
+	height: 70%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: flex-start;
+}
