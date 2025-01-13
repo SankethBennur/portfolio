@@ -35,3 +35,18 @@
 	justify-content: space-evenly;
 	align-items: flex-start;
 }
+
+@media (max-width: 750px) {
+	.home {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.home-right-column {
+		width: 100%;
+	}
+
+	.home-content {
+		width: 100%;
+	}
+}
