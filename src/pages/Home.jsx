@@ -2,13 +2,15 @@ import React from "react";
 
 import "./Home.css";
 
+import MyPicture from "../components/MyPicture";
+
 function Home() {
 	return (
 		<div className="home">
 			{/* Right Column */}
 			<div className="home-right-column">
 				{/* Image */}
-				<div>Image</div>
+				<MyPicture />
 
 				{/* Skills */}
 				<div>Skills</div>

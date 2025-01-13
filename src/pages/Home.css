@@ -6,6 +6,10 @@
 
 .home-right-column {
 	width: 30%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center; /* In this case, aligning horizontally */
 }
 
 .home-content {

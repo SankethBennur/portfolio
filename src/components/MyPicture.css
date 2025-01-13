@@ -1,0 +1,23 @@
+.picture-container {
+	position: relative;
+	margin: 20px;
+	margin-top: 20px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center; /* in this case, aligns vertically */
+
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+
+	box-shadow: 0 0 25px 10px rgba(0, 255, 204, 0.5) /* Inner glow */,
+		0 0 50px 25px rgba(0, 115, 255, 0.5); /* Outer glow */
+	background: linear-gradient(145deg, #00ffcc, #0073ff); /* Subtle gradient */
+	overflow: hidden; /* Ensures no part of the image exceeds the circle */
+}
+
+.picture {
+	height: 100%;
+	object-fit: cover;
+}
