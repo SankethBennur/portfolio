@@ -3,6 +3,8 @@ import React from "react";
 import "./Home.css";
 
 import MyPicture from "../components/MyPicture";
+import Experience from "../components/Experience";
+import Projects from "../components/Projects";
 
 function Home() {
 	return (
@@ -33,10 +35,10 @@ function Home() {
 				{/* Middle section */}
 				<div className="home-content-middle">
 					{/* Experience */}
-					<div>Experience</div>
+					<Experience />
 
 					{/* Projects */}
-					<div>Projects</div>
+					<Projects />
 				</div>
 			</div>
 		</div>

@@ -1,0 +1,26 @@
+.experience-container {
+	/*
+	The outer container is where you set
+	the overflow value to scroll
+		- Also, make sure to set for all 
+		outer elements
+		- All the way up to home-content-middle
+	*/
+	width: 50%;
+	height: 100%;
+
+	/* margin: 10px; */
+	/* padding: 10px; */
+
+	overflow: hidden; /* Prevents the inner content from making entire web page to scroll */
+}
+
+.experience-content {
+	height: 100%;
+	overflow: scroll;
+	/*
+		So, I think it's a great idea to
+		have overflow set in inner and outer elements.
+		Outer elements obviously having overflow set to hidden.
+	*/
+}
