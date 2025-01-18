@@ -21,4 +21,6 @@
 .experience-card-position-duration {
 	max-width: 40%;
 	margin: 0px;
+	font-style: italic;
+	font-size: 12px;
 }

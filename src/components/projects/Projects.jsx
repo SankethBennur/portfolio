@@ -2,43 +2,104 @@ import React from "react";
 
 import "./Projects.css";
 
+import ProjectCard from "./Project-card";
+
+const project_list = [
+	{
+		name: "Netflix clone",
+		urls: [
+			{
+				url: "https://nf-clone-client.web.app/",
+				url_title: "Demo",
+			},
+			{
+				url: "https://github.com/SankethBennur/netflix.git",
+				url_title: "Link",
+			},
+		],
+		technologies: [
+			"MongoDB",
+			"Express",
+			"React",
+			"Node.js",
+			"JSON Web Tokens",
+		],
+		activities: [
+			"Netflix Clone Web Application using RESTful APIs built on MERN Stack.",
+			"Backend involved utilizing JWT Tokens to perform User-Authentication.",
+			"Password Encryption is performed using Crypto-js Library.",
+		],
+	},
+	{
+		name: "Discord GPT chat",
+		urls: [
+			{
+				url: "https://github.com/SankethBennur/discord-gpt-bot.git",
+				url_title: "Link",
+			},
+		],
+		technologies: ["Node.js", "MongoDB", "OpenAI GPT"],
+		activities: [
+			"Built 2 discord bots - one for ban, kick and timeout of a user, grants daily points, handles point cooldown, levels up character and ranks all users by level in server.",
+			"The other discord bot is a GPT-4 chat-bot that responds to user messages and has access to message history in the channel for context, using GPT’s “assistant” role.",
+		],
+	},
+	{
+		name: "Transfer Learning thesis",
+		urls: [
+			{
+				url: "https://github.com/SankethBennur/transfer-learning-thesis.git",
+				url_title: "Link",
+			},
+		],
+		technologies: ["Convolutional Neural Networks", "Transfer Learning"],
+		activities: [
+			"Submitted a dissertation on Transfer Learning as part of Master of Science degree.",
+			"The project compares various pre-trained Neural Network models such as VGG16, ResNet50, Inception-V3 and MobileNet for transfer learning on the Human Action Recognition dataset.",
+			"The models have been compared on the factors – accuracy, loss, storage size, number  parameters, architecture etc.",
+		],
+	},
+	{
+		name: "Unreal Engine Gameplay Ability System",
+		urls: [
+			{
+				url: "https://github.com/SankethBennur/unreal-engine-GAS-tutorial.git",
+				url_title: "Link",
+			},
+		],
+		technologies: ["C++", "Unreal Engine 5.2"],
+		activities: [
+			"As a hobby, implemented the advance Gameplay Ability System framework into an Unreal Engine Project in C++.",
+			"Made many features of gameplay, such as Passives, Effect-Calculations, Statuses etc. inspired by the video game DotA 2.",
+		],
+	},
+	{
+		name: "Google and EY - BrightNetwork Internship Experience UK",
+		urls: [
+			{
+				url: "https://www.brightnetwork.co.uk/certificates/internship-experience-uk-techn_p5ryyqu7j3v6ed/",
+				url_title: "Link",
+			},
+		],
+		technologies: ["Python", "Node.js", "Express"],
+		activities: [
+			"Took part in Internship Experience UK and worked on assignments from Google and EY in the frenetic 3 day event.",
+			"Developed a YouTube CLI as part of the Google Assignment using Python to send requests and receive responses from a locally hosted server built using Express.js.",
+		],
+	},
+];
+
 const Projects = function () {
 	return (
 		<div className="project-container">
 			<h2>Projects</h2>
 			<div className="project-content">
-				Lorem Ipsum is simply dummy text of the printing and typesetting
-				industry. Lorem Ipsum has been the industry's standard dummy
-				text ever since the 1500s, when an unknown printer took a galley
-				of type and scrambled it to make a type specimen book. It has
-				survived not only five centuries, but also the leap into
-				electronic typesetting, remaining essentially unchanged. It was
-				popularised in the 1960s with the release of Letraset sheets
-				containing Lorem Ipsum passages, and more recently with desktop
-				publishing software like Aldus PageMaker including versions of
-				Lorem Ipsum. Why do we use it? It is a long established fact
-				that a reader will be distracted by the readable content of a
-				page when looking at its layout. The point of using Lorem Ipsum
-				is that it has a more-or-less normal distribution of letters, as
-				opposed to using 'Content here, content here', making it look
-				like readable English. Many desktop publishing packages and web
-				page editors now use Lorem Ipsum as their default model text,
-				and a search for 'lorem ipsum' will uncover many web sites still
-				in their infancy. Various versions have evolved over the years,
-				sometimes by accident, sometimes on purpose (injected humour and
-				the like). Where does it come from? Contrary to popular belief,
-				Lorem Ipsum is not simply random text. It has roots in a piece
-				of classical Latin literature from 45 BC, making it over 2000
-				years old. Richard McClintock, a Latin professor at
-				Hampden-Sydney College in Virginia, looked up one of the more
-				obscure Latin words, consectetur, from a Lorem Ipsum passage,
-				and going through the cites of the word in classical literature,
-				discovered the undoubtable source. Lorem Ipsum comes from
-				sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum"
-				(The Extremes of Good and Evil) by Cicero, written in 45 BC.
-				This book is a treatise on the theory of ethics, very popular
-				during the Renaissance. The first line of Lorem Ipsum, "Lorem
-				ipsum dolor sit amet..", comes from a line in section 1.10.32.
+				{project_list.map((item, index) => (
+					<ProjectCard
+						key={`project-${index}`}
+						project={item}
+					/>
+				))}
 			</div>
 		</div>
 	);
