@@ -1,0 +1,24 @@
+.experience-card-company-name-url {
+	display: flex;
+	align-items: center;
+}
+
+.experience-card-position {
+	display: flex;
+	flex-direction: column;
+}
+
+.experience-card-position-name-duration {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.experience-card-position-name {
+	min-width: 60%;
+}
+
+.experience-card-position-duration {
+	max-width: 40%;
+	margin: 0px;
+}

@@ -6,13 +6,13 @@
 	/* For whatever reason, top margin or padding is
 	adding more pixels and overflowing entire page */
 
-	margin-bottom: 10px;
+	/* margin-bottom: 10px;
 	margin-left: 10px;
 	margin-right: 10px;
 
 	padding-bottom: 10px;
 	padding-left: 10px;
-	padding-right: 10px;
+	padding-right: 10px; */
 
 	box-sizing: border-box; /* Can help prevent elements expanding outside,
 	by making elements pad and have margins inside. */

@@ -3,8 +3,10 @@ import React from "react";
 import "./Home.css";
 
 import MyPicture from "../components/MyPicture";
-import Experience from "../components/Experience";
-import Projects from "../components/Projects";
+import Greetings from "../components/Greetings";
+
+import Experience from "../components/experience/Experience";
+import Projects from "../components/projects/Projects";
 
 function Home() {
 	return (
@@ -23,7 +25,7 @@ function Home() {
 				{/* Top section */}
 				<div className="home-content-top">
 					{/* Greetings */}
-					<div>Greetings</div>
+					<Greetings />
 
 					{/* Certifications */}
 					<div>Certifications</div>
