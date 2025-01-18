@@ -51,6 +51,10 @@ const project_list = [
 				url: "https://github.com/SankethBennur/transfer-learning-thesis.git",
 				url_title: "Link",
 			},
+			{
+				url: "https://raw.githubusercontent.com/SankethBennur/transfer-learning-thesis/refs/heads/master/dissertation.pdf",
+				url_title: "Thesis",
+			},
 		],
 		technologies: ["Convolutional Neural Networks", "Transfer Learning"],
 		activities: [

@@ -20,6 +20,8 @@ const ProjectCard = function (props) {
 						<a
 							key={`project-url-${index}`}
 							href={item.url}
+							target="_blank"
+							rel="noopener noreferrer"
 						>
 							&nbsp; &nbsp;
 							{item.url_title}
