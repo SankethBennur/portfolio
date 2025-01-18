@@ -5,7 +5,7 @@
 }
 
 .home-right-column {
-	width: 30%;
+	width: 25%;
 	height: 100%;
 
 	display: flex;
@@ -15,7 +15,7 @@
 }
 
 .home-content {
-	width: 70%;
+	width: 75%;
 	height: 100%;
 	/*
 	@media (max-width: 600px)
@@ -26,14 +26,14 @@
 
 /* Again, top row is made same height, as width of right column */
 .home-content-top {
-	height: 30%;
+	height: 30%; /* height */
 	display: flex;
 	justify-content: space-around;
 	align-items: flex-start;
 }
 
 .home-content-middle {
-	height: 70%;
+	height: 70%; /* height */
 	display: flex;
 	justify-content: space-around;
 	align-items: flex-start;

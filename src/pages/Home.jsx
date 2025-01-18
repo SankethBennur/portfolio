@@ -5,6 +5,8 @@ import "./Home.css";
 import MyPicture from "../components/MyPicture";
 import Greetings from "../components/Greetings";
 
+import Skills from "../components/Skills";
+
 import Experience from "../components/experience/Experience";
 import Projects from "../components/projects/Projects";
 
@@ -17,7 +19,7 @@ function Home() {
 				<MyPicture />
 
 				{/* Skills */}
-				<div>Skills</div>
+				<Skills />
 			</div>
 
 			{/* Content */}

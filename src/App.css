@@ -42,6 +42,7 @@ h4 {
 
 ::-webkit-scrollbar {
 	width: 2px;
+	height: 2px;
 }
 ::-webkit-scrollbar-track {
 	background: rgb(0, 75, 0);
@@ -53,4 +54,14 @@ h4 {
 	border-radius: 100vw;
 	/* background:hsl(120 100% 10% / 1); */
 	/* background: rgb(19, 169, 19); */
+}
+
+/* Firefox-specific scrollbar styling */
+html {
+	scrollbar-width: thin;
+	scrollbar-color: hsl(120 75% 50% / 1) rgb(0, 75, 0); /* thumb color and track color */
+}
+
+::-moz-scrollbar {
+	width: 2px;
 }
