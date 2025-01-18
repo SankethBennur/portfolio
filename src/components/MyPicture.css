@@ -1,7 +1,7 @@
 .picture-container {
 	position: relative;
-	margin: 15px;
-	margin-top: 25px;
+	/* margin: 15px;
+	margin-top: 25px; */
 
 	display: flex;
 	justify-content: center;
@@ -9,7 +9,30 @@
 
 	width: 250px;
 	height: 250px;
+	/* border-radius: 50%; */
+
+	/* box-shadow: 0 0 30px 10px rgba(0, 255, 204, 0.5), */
+	/* Inner glow */
+	/* 0 0 60px 30px rgba(0, 115, 255, 0.5); */
+	/* Outer glow */
+	/* background: linear-gradient(145deg, #00ffcc, #0073ff); */
+	/* Subtle gradient */
+	/* overflow: hidden; */
+	/* Ensures no part of the image exceeds the circle */
+}
+
+.picture {
+	position: absolute;
+	margin: 10px;
+	margin-top: 30px;
+
+	width: 250px;
+	height: 250px;
+
 	border-radius: 50%;
+	object-fit: cover;
+
+	overflow: auto;
 
 	box-shadow: 0 0 30px 10px rgba(0, 255, 204, 0.5) /* Inner glow */,
 		0 0 60px 30px rgba(0, 115, 255, 0.5); /* Outer glow */
@@ -17,15 +40,9 @@
 	overflow: hidden; /* Ensures no part of the image exceeds the circle */
 }
 
-.picture {
-	height: 100%;
-	border-radius: 50%;
-	object-fit: cover;
-}
-
 @media (max-width: 750px) {
-	.picture-container {
-		width: 200px;
-		height: 200px;
+	.picture {
+		width: 125px;
+		height: 125px;
 	}
 }

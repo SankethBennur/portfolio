@@ -1,0 +1,8 @@
+.education-container-row {
+	display: flex;
+}
+
+.edu-logo {
+	width: 50px;
+	height: 50px;
+}
