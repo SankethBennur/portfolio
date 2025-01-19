@@ -1,8 +1,103 @@
-.certification-container-row {
+.certifications-container {
 	display: flex;
 }
 
+.certification-container-grid {
+	margin: 2px;
+	overflow: scroll;
+	min-width: 25%;
+}
+
+.certification-container-row {
+	display: flex;
+	/* overflow: scroll; */
+	margin-top: 5px;
+	/* margin-bottom: 5px; */
+}
+
 .cert-img {
-	width: 50px;
-	height: 50px;
+	width: 40px;
+	height: 40px;
+	padding-right: 2px;
+	margin-right: 3px;
+}
+
+/* CERT INFO BOX PROVIDER */
+
+.certifications-info-box {
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 10px;
+
+	padding-left: 15px;
+	padding-right: 15px;
+
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+	background-color: black;
+	border-radius: 7px;
+
+	vertical-align: top;
+
+	min-width: 40%;
+	/* max-width: 70%; */
+
+	display: inline-flex; /* Shrink-wrap to fit children */
+	/* justify-content: space-between; */
+	align-items: center;
+}
+
+.certifications-info-box-name-provider {
+	line-height: 17pt;
+}
+
+.certifications-info-box-name {
+	display: flex;
+	align-items: center;
+}
+
+.certifications-provider {
+	margin: 0px;
+	font-size: 14px;
+}
+
+.certification-goto-icon {
+	width: 20px;
+	height: 20px;
+
+	padding: 10px;
+	/* padding-left: 20px; */
+	/* padding-right: 20px; */
+
+	filter: invert(1);
+}
+
+/* TABLE */
+
+.cert-info-table {
+	margin-top: 5px;
+}
+
+.cert-info-table-row {
+	display: inline-flex;
+	justify-content: space-between;
+
+	background-color: black;
+	border-radius: 10px;
+	min-width: 50%;
+	max-width: 90%;
+}
+
+.cert-info-table-column-details {
+	max-width: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	line-height: 16pt;
+}
+
+.cert-info-table-column-goto {
+	max-width: 20%;
 }

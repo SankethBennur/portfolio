@@ -95,7 +95,7 @@ const project_list = [
 
 const Projects = function () {
 	return (
-		<div className="project-container">
+		<div className="projects">
 			<h2>Projects</h2>
 			<div className="project-content">
 				{project_list.map((item, index) => (

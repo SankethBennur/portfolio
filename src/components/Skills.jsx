@@ -47,6 +47,7 @@ const skills = [
 function Skills() {
 	return (
 		<div className="skills">
+			<h2>Skills</h2>
 			{skills.map((skill, index) => (
 				<div key={`skill-category-${index}`}>
 					<h3>{skill.category}</h3>

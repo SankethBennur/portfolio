@@ -66,7 +66,7 @@ const ls = [
 
 const Experience = function () {
 	return (
-		<div className="experience-container">
+		<div className="experience">
 			<h2>Experience</h2>
 			<div className="experience-content">
 				{/*

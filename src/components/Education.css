@@ -1,8 +1,47 @@
-.education-container-row {
+.education-container {
 	display: flex;
 }
 
+.education-container-column {
+	display: flex;
+	flex-direction: column;
+	/* margin: 2px; */
+	padding-right: 2px;
+	margin-right: 3px;
+}
+
 .edu-logo {
-	width: 50px;
-	height: 50px;
+	width: 40px;
+	height: 40px;
+	padding-top: 5px;
+	padding-right: 2px;
+	margin-right: 3px;
+}
+
+.education-container-info-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	/* height: 50%; */
+
+	background-color: black;
+	border-radius: 10px;
+
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 10px;
+
+	padding-left: 15px;
+	padding-right: 15px;
+
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+	line-height: 17pt;
+}
+
+.education-container-info-box-paragraph {
+	margin: 0px;
+	font-size: 13px;
 }

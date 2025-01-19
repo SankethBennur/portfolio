@@ -31,7 +31,7 @@ function Education() {
 
 			{/* One row containing list of institutes */}
 			<div className="education-container">
-				<div className="education-container-row">
+				<div className="education-container-column">
 					{education_list.map((item, index) => (
 						<img
 							key={`edu-logo-${index}`}
@@ -42,19 +42,19 @@ function Education() {
 						/>
 					))}
 				</div>
-			</div>
 
-			{/* Box for education info */}
-			<div className="education-container-info-box">
-				<h4>{education_list[selected_edu_index].name}</h4>
-				<p>
-					{education_list[selected_edu_index].degree},{" "}
-					{education_list[selected_edu_index].domain}
-				</p>
-				<p>
-					{education_list[selected_edu_index].duration[0]} -{" "}
-					{education_list[selected_edu_index].duration[1]}
-				</p>
+				{/* Box for education info */}
+				<div className="education-container-info-box">
+					<h4>{education_list[selected_edu_index].name}</h4>
+					<p className="education-container-info-box-paragraph">
+						{education_list[selected_edu_index].degree},{" "}
+						{education_list[selected_edu_index].domain}
+					</p>
+					<p className="education-container-info-box-paragraph">
+						{education_list[selected_edu_index].duration[0]} -{" "}
+						{education_list[selected_edu_index].duration[1]}
+					</p>
+				</div>
 			</div>
 		</div>
 	);
