@@ -1,11 +1,16 @@
 .project-card-title {
 	display: flex;
-	align-items: center;
+	align-items: flex-end;
 }
 
 .project-card-activities {
 	margin-left: -12px;
 	padding-right: 12px;
+}
+
+.project-card-title-urls {
+	display: flex;
+	justify-content: flex-start;
 }
 
 .project-github-link {

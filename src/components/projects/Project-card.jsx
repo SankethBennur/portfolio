@@ -18,7 +18,7 @@ const ProjectCard = function (props) {
 					<h3>{project.name}</h3>
 
 					{/* List of project URLs */}
-					<div>
+					<div className="project-card-title-urls">
 						{project.urls.map((item, index) => (
 							<a
 								key={`project-url-${index}`}

@@ -1,6 +1,6 @@
 .experience-card-company-name-url {
 	display: flex;
-	align-items: center;
+	align-items: flex-end;
 }
 
 .experience-card-position {
