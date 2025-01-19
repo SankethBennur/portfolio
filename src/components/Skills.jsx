@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./Skills.css";
+
 const skills = [
 	{
 		category: "Programming",
@@ -61,12 +63,14 @@ function Skills() {
 	return (
 		<div className="skills">
 			<h2>Skills</h2>
-			{skills.map((skill, index) => (
-				<div key={`skill-category-${index}`}>
-					<h3>{skill.category}</h3>
-					<p>{skill.skill_list.join(" | ")}</p>
-				</div>
-			))}
+			<div className="skills-container">
+				{skills.map((skill, index) => (
+					<div key={`skill-category-${index}`}>
+						<h3>{skill.category}</h3>
+						<p>{skill.skill_list.join(" | ")}</p>
+					</div>
+				))}
+			</div>
 		</div>
 	);
 }

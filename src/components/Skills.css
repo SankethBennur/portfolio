@@ -1,0 +1,8 @@
+.skills {
+	overflow: hidden;
+}
+
+.skills-container {
+	height: 100%;
+	overflow: scroll;
+}

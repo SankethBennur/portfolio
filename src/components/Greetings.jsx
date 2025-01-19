@@ -10,9 +10,9 @@ function Greetings() {
 				I am &nbsp;
 				<h3 className="greetings-my-name">Sanketh Bennur</h3>
 			</div>
-			<p className="greetings-content">
+			<div className="greetings-content">
 				Software Engineer & Cybersecurity Enthusiast
-			</p>
+			</div>
 		</div>
 	);
 }

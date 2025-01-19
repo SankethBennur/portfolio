@@ -1,12 +1,8 @@
 .education-container {
 	padding: 0px;
-	height: 130px;
 
 	display: flex;
 	flex-direction: column;
-
-	justify-content: center;
-	align-items: center;
 }
 
 .education-container-row {
@@ -24,17 +20,34 @@
 	margin: 5px;
 }
 
+.edu-logo.selected {
+	border: 1px solid white;
+}
+
 .education-container-info-box {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	align-items: flex-start;
 
 	/* height: 50%; */
+	/* width: 100%; */
 
 	background-color: black;
 	border-radius: 10px;
 
-	margin-top: 5px;
+	box-sizing: border-box;
+
+	/* margin-right: 10px; */
+
+	padding-left: 10px;
+	padding-right: 10px;
+
+	width: 100%;
+	max-width: 420px;
+	height: 120px;
+
+	/* margin-top: 5px;
 	margin-left: 5px;
 	margin-right: 10px;
 
@@ -42,7 +55,7 @@
 	padding-right: 15px;
 
 	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-bottom: 5px; */
 
 	line-height: 17pt;
 }
@@ -56,14 +69,17 @@
 	.education-container {
 		justify-content: space-between;
 		box-sizing: border-box;
-		height: 175px;
+		/* height: 175px; */
 		/* padding-left: 5px; */
+		justify-content: center;
+		align-items: center;
 	}
 
 	.education-container-info-box {
 		/* margin: 0px; */
 
-		width: 95%;
-		height: 360px;
+		width: 97%;
+		max-width: 500px;
+		/* height: 120px; */
 	}
 }

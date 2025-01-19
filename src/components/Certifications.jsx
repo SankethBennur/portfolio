@@ -81,7 +81,10 @@ function Certifications() {
 					{certification_list.map((cert, index) => (
 						<img
 							key={`cert-img-${index}`}
-							className="cert-img"
+							className={`cert-img ${
+								// Can add a space here to concatenate classNames
+								selected_cert_index === index ? "selected" : ""
+							}`}
 							src={cert.image}
 							onClick={() => {
 								set_selected_cert_index(index);

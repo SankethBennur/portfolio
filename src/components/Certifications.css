@@ -1,8 +1,6 @@
 .certifications-container {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-items: center;
 }
 
 .certification-container-grid {
@@ -25,25 +23,43 @@
 	margin: 5px;
 }
 
+.cert-img.selected {
+	/* Can concatenate classNames */
+	border: 1px solid white;
+}
+
 /* CERT INFO BOX PROVIDER */
 
 .certifications-info-box {
-	margin-top: 5px;
+	/* margin-top: 5px;
 	margin-left: 5px;
 	margin-right: 10px;
-
+	
 	padding-left: 15px;
 	padding-right: 15px;
-
+	
 	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-bottom: 5px; */
+
+	width: 100%;
+	max-width: 350px;
+	height: 80px;
+
+	justify-content: space-between;
+
+	box-sizing: border-box;
+
+	/* margin-right: 10px; */
+	padding-left: 10px;
+	padding-right: 10px;
 
 	background-color: black;
 	border-radius: 7px;
 
 	vertical-align: top;
 
-	min-width: 40%;
+	/* width: 100%; */
+	/* min-width: 40%; */
 	/* max-width: 70%; */
 
 	display: inline-flex; /* Shrink-wrap to fit children */
@@ -77,14 +93,19 @@
 }
 
 @media (max-width: 750px) {
+	.certifications-container {
+		justify-content: center;
+		align-items: center;
+	}
+
 	.certifications-info-box {
 		/* margin: 0px; */
-		width: 95%;
-
-		justify-content: space-between;
+		width: 97%;
+		max-width: 500px;
 	}
 }
 
+/* --- DEPRECATED --- */
 /* TABLE */
 
 .cert-info-table {

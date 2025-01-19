@@ -35,7 +35,9 @@ function Education() {
 					{education_list.map((item, index) => (
 						<img
 							key={`edu-logo-${index}`}
-							className="edu-logo"
+							className={`edu-logo ${
+								selected_edu_index === index ? "selected" : ""
+							}`}
 							src={item.src}
 							alt={item.name}
 							onClick={() => set_selected_edu_index(index)}
