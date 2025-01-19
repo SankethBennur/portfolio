@@ -31,3 +31,16 @@
 	padding-right: 12px;
 	margin-top: 5px;
 }
+
+.company-goto-img {
+	width: 20px;
+	height: 20px;
+	filter: invert(1);
+	padding-right: 10px;
+}
+
+@media (max-width: 705px) {
+	.experience-card-company-name-url {
+		justify-content: space-between;
+	}
+}

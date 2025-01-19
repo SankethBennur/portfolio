@@ -48,12 +48,12 @@ const project_list = [
 		name: "Transfer Learning thesis",
 		urls: [
 			{
-				url: "https://github.com/SankethBennur/transfer-learning-thesis.git",
-				url_title: "Link",
-			},
-			{
 				url: "https://raw.githubusercontent.com/SankethBennur/transfer-learning-thesis/refs/heads/master/dissertation.pdf",
 				url_title: "Thesis",
+			},
+			{
+				url: "https://github.com/SankethBennur/transfer-learning-thesis.git",
+				url_title: "Link",
 			},
 		],
 		technologies: ["Convolutional Neural Networks", "Transfer Learning"],

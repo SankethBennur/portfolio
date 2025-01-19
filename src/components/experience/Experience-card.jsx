@@ -2,6 +2,8 @@ import React, { useState } from "react";
 
 import "./Experience-card.css";
 
+import IconGoto from "../../assets/icon_goto.png";
+
 const ExperienceCard = function (props) {
 	const { company } = props; // Pick company from props
 
@@ -14,12 +16,22 @@ const ExperienceCard = function (props) {
 				<div className="experience-card-company-name-url">
 					<h3>{company.name}</h3>
 					&nbsp; &nbsp; &nbsp;
+					{/* <a
+						href={company.url}
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+					Link
+					</a> */}
 					<a
 						href={company.url}
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						Link
+						<img
+							className="company-goto-img"
+							src={IconGoto}
+						/>
 					</a>
 				</div>
 				{company.position_list.map((position, index) => (

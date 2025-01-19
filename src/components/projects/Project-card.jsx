@@ -2,6 +2,8 @@ import React from "react";
 
 import "./Project-card.css";
 
+import IconGoto from "../../assets/icon_goto.png";
+
 const ProjectCard = function (props) {
 	const { project } = props;
 
@@ -16,17 +18,26 @@ const ProjectCard = function (props) {
 					<h3>{project.name}</h3>
 
 					{/* List of project URLs */}
-					{project.urls.map((item, index) => (
-						<a
-							key={`project-url-${index}`}
-							href={item.url}
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							&nbsp; &nbsp;
-							{item.url_title}
-						</a>
-					))}
+					<div>
+						{project.urls.map((item, index) => (
+							<a
+								key={`project-url-${index}`}
+								href={item.url}
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								{item.url_title.toLowerCase() === "link" ? (
+									<img
+										className="project-github-link"
+										src={IconGoto}
+									/>
+								) : (
+									<>&nbsp;{item.url_title}</>
+									// The above is still a div
+								)}
+							</a>
+						))}
+					</div>
 				</div>
 
 				{/* Technologies */}
