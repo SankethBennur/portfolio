@@ -1,10 +1,18 @@
 import React from "react";
 
+import "./Greetings.css";
+
 function Greetings() {
 	return (
 		<div className="greetings">
 			<h1>Greetings!</h1>
-			<p className="greetings-content">I am Sanketh Bennur</p>
+			<div className="greetings-content">
+				I am &nbsp;
+				<h3 className="greetings-my-name">Sanketh Bennur</h3>
+			</div>
+			<p className="greetings-content">
+				Software Engineer & Cybersecurity Enthusiast
+			</p>
 		</div>
 	);
 }

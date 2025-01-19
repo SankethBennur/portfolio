@@ -87,10 +87,25 @@
 
 .greetings {
 	width: 20%;
+	margin-left: 5px;
+	margin-right: 5px;
+
+	padding-left: 5px;
+	padding-right: 5px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .certifications {
 	width: 40%;
+	margin-left: 5px;
+	margin-right: 5px;
+
+	padding-left: 5px;
+	padding-right: 5px;
 
 	display: flex;
 	flex-direction: column;
@@ -98,4 +113,9 @@
 
 .education {
 	width: 40%;
+	margin-left: 5px;
+	margin-right: 5px;
+
+	padding-left: 5px;
+	padding-right: 5px;
 }

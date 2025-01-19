@@ -38,10 +38,10 @@ function Certifications() {
 
 			{/* Certifications container */}
 			<div className="certifications-container">
-				<div className="certification-container-grid">
-					<div className="certification-container-column">
-						{/* Row even*/}
-						<div className="certification-container-row">
+				{/* <div className="certification-container-grid"> */}
+				{/* <div className="certification-container-column"> */}
+				{/* Row even*/}
+				{/* <div className="certification-container-row">
 							{certification_list.map(
 								(cert, index) =>
 									index % 2 === 0 && (
@@ -55,10 +55,10 @@ function Certifications() {
 										/>
 									)
 							)}
-						</div>
+						</div> */}
 
-						{/* Row odd */}
-						<div className="certification-container-row">
+				{/* Row odd */}
+				{/* <div className="certification-container-row">
 							{certification_list.map(
 								(cert, index) =>
 									index % 2 !== 0 && (
@@ -72,11 +72,12 @@ function Certifications() {
 										/>
 									)
 							)}
-						</div>
-					</div>
-				</div>
+						</div> */}
+				{/* </div> */}
+				{/* </div> */}
 
-				{/* <div className="certification-container-row">
+				{/* Certifications Image Row */}
+				<div className="certification-container-row">
 					{certification_list.map((cert, index) => (
 						<img
 							key={`cert-img-${index}`}
@@ -87,7 +88,7 @@ function Certifications() {
 							}}
 						/>
 					))}
-				</div> */}
+				</div>
 
 				{/* Certifications info box */}
 				<div className="certifications-info-box">

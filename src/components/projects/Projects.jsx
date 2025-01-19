@@ -67,7 +67,7 @@ const project_list = [
 		name: "Unreal Engine Gameplay Ability System",
 		urls: [
 			{
-				url: "https://github.com/SankethBennur/unreal-engine-GAS-tutorial.git",
+				url: "https://github.com/SankethBennur/unreal-engine-GAS-basic.git",
 				url_title: "Link",
 			},
 		],

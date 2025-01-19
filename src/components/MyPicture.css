@@ -11,7 +11,7 @@
 	height: 30%;
 	/* border-radius: 50%; */
 
-	padding-top: 50px;
+	padding-top: 60px;
 
 	/* box-shadow: 0 0 30px 10px rgba(0, 255, 204, 0.5), */
 	/* Inner glow */
@@ -27,8 +27,8 @@
 	position: absolute;
 	margin: 10px;
 
-	width: 250px;
-	height: 250px;
+	width: 180px;
+	height: 180px;
 	max-width: 400px;
 	max-height: 400px;
 

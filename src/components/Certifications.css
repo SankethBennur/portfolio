@@ -1,5 +1,8 @@
 .certifications-container {
 	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .certification-container-grid {
@@ -18,8 +21,8 @@
 .cert-img {
 	width: 40px;
 	height: 40px;
-	padding-right: 2px;
-	margin-right: 3px;
+	padding: 5px;
+	margin: 5px;
 }
 
 /* CERT INFO BOX PROVIDER */
@@ -75,8 +78,8 @@
 
 @media (max-width: 750px) {
 	.certifications-info-box {
-		margin: 0px;
-		width: 100%;
+		/* margin: 0px; */
+		width: 95%;
 
 		justify-content: space-between;
 	}

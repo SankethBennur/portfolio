@@ -33,6 +33,19 @@ const skills = [
 		],
 	},
 	{
+		category: "Offensive Cybersecurity",
+		skill_list: [
+			"NMap",
+			"Metasploit",
+			"Hydra",
+			"OWASP",
+			"Rapid7",
+			"Burp Suite",
+			"Wireshark",
+			"Exploit-DB",
+		],
+	},
+	{
 		category: "Soft Skills",
 		skill_list: [
 			"Active Listening",

@@ -1,0 +1,15 @@
+.greetings-content {
+	display: flex;
+
+	margin: 0px;
+	margin-top: 10px;
+
+	align-self: center;
+	align-items: center;
+}
+
+.greetings-my-name {
+	margin: 0px;
+	margin-bottom: 5px;
+	color: lightgreen;
+}

@@ -31,7 +31,7 @@ function Education() {
 
 			{/* One row containing list of institutes */}
 			<div className="education-container">
-				<div className="education-container-column">
+				<div className="education-container-row">
 					{education_list.map((item, index) => (
 						<img
 							key={`edu-logo-${index}`}
