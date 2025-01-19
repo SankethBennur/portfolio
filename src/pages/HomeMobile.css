@@ -1,0 +1,29 @@
+.greetings,
+.certifications,
+.education,
+.skills,
+.experience,
+.projects {
+	width: 100%;
+
+	margin: 0px;
+	padding: 15px;
+
+	box-sizing: border-box;
+
+	border: 0px;
+}
+
+.picture-container {
+	height: 100px;
+}
+
+.greetings {
+	display: flex;
+	flex-direction: column;
+
+	margin-top: 50px;
+
+	justify-content: center;
+	align-items: center;
+}

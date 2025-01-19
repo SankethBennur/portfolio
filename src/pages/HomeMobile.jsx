@@ -1,9 +1,41 @@
 import React from "react";
 
+import "./HomeMobile.css";
+
+import MyPicture from "../components/MyPicture";
+import Greetings from "../components/Greetings";
+
+import Skills from "../components/Skills";
+
+import Certifications from "../components/Certifications";
+import Education from "../components/Education";
+
+import Experience from "../components/experience/Experience";
+import Projects from "../components/projects/Projects";
+
 const HomeMobile = function () {
 	return (
 		<div className="home-mobile">
-			<div>HomeMobile</div>
+			{/* Picture */}
+			<MyPicture />
+
+			{/* Greetings */}
+			<Greetings />
+
+			{/* Certifications */}
+			<Certifications />
+
+			{/* Education */}
+			<Education />
+
+			{/* Skills */}
+			<Skills />
+
+			{/* Work Experience */}
+			<Experience />
+
+			{/* Projects */}
+			<Projects />
 		</div>
 	);
 };

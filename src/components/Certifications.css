@@ -73,6 +73,15 @@
 	filter: invert(1);
 }
 
+@media (max-width: 750px) {
+	.certifications-info-box {
+		margin: 0px;
+		width: 100%;
+
+		justify-content: space-between;
+	}
+}
+
 /* TABLE */
 
 .cert-info-table {

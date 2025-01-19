@@ -9,14 +9,17 @@ function App()
 		window.innerWidth < 750
 	);
 
-	useEffect(() =>
+	useEffect(() =>	
 	{
+		/*
+			Great place to add and remove event listener,
+			When component mounts and unmounts
+		*/
+
 		const handle_screen_width_ = () =>
 		{
 			set_is_mobile_device(window.innerWidth < 750);
 		};
-
-		console.log(is_mobile_device);
 
 		// Add Event Listener when component mounts
 		window.addEventListener("resize_app", handle_screen_width_);
