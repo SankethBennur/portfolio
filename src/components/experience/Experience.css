@@ -3,8 +3,8 @@
 	width: 50%;
 	height: 100%;
 
-	border-right: 1px solid aqua;
-	border-left: 1px solid aqua;
+	border-right: 1px solid lightseagreen;
+	border-left: 1px solid lightseagreen;
 
 	/* For whatever reason, top margin or padding is
 	adding more pixels and overflowing entire page */

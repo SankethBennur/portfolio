@@ -2,6 +2,8 @@
 	width: 100vw;
 	height: 100vh;
 	display: flex;
+
+	text-align: justify;
 }
 
 .home-right-column {
@@ -34,7 +36,7 @@
 	max-height: 30%;
 
 	margin-top: 5px;
-	margin-bottom: 15px;
+	/* margin-bottom: 15px; */
 	padding-top: 5px;
 
 	display: flex;
@@ -43,7 +45,7 @@
 }
 
 .home-content-middle {
-	margin-top: 15px;
+	/* margin-top: 15px; */
 
 	display: flex;
 	justify-content: space-around;
@@ -83,6 +85,8 @@
 	padding-right: 14px;
 
 	overflow: scroll;
+
+	padding-bottom: 25px;
 }
 
 .greetings {
@@ -92,11 +96,6 @@
 
 	padding-left: 5px;
 	padding-right: 5px;
-
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
 }
 
 .certifications {

@@ -31,7 +31,7 @@ const project_list = [
 		],
 	},
 	{
-		name: "Discord GPT chat",
+		name: "Discord GPT chat bot",
 		urls: [
 			{
 				url: "https://github.com/SankethBennur/discord-gpt-bot.git",
@@ -63,6 +63,27 @@ const project_list = [
 			"The models have been compared on the factors – accuracy, loss, storage size, number  parameters, architecture etc.",
 		],
 	},
+	{
+		name: "Machine Learning models",
+		urls: [
+			{
+				url: "https://github.com/SankethBennur/machine-learning-models.git",
+				url_title: "Link",
+			},
+		],
+		technologies: [
+			"Python",
+			"Convolutional Neural Network",
+			"Naive Bayes Algorithm",
+		],
+		activities: [
+			"A repository of machine learning models implemented for various cases & datasets.",
+			"An image classifier program consisting of a Convolutional Neural Network trained on CIFAR-10 dataset.",
+			"A sentiment analysis using Naive Bayes Algorithm on movie reviews based on text.",
+			"A recommendation system using Singular Value Dcomposition and “surprise” scikit.",
+		],
+	},
+
 	{
 		name: "Unreal Engine Gameplay Ability System",
 		urls: [

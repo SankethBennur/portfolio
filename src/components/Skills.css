@@ -6,3 +6,12 @@
 	height: 100%;
 	overflow: scroll;
 }
+
+.skills-heading {
+	margin-top: 10px;
+	margin-bottom: 3px;
+}
+
+.skills-list {
+	margin: 0px;
+}

@@ -35,6 +35,18 @@ const skills = [
 		],
 	},
 	{
+		category: "Machine Learning & AI",
+		skill_list: [
+			"Tensorflow",
+			"PyTorch",
+			"CNN",
+			"Deep Learning",
+			"LLM",
+			"Statistical Analysis",
+			"Predictive Modeling",
+		],
+	},
+	{
 		category: "Offensive Cybersecurity",
 		skill_list: [
 			"NMap",
@@ -66,8 +78,10 @@ function Skills() {
 			<div className="skills-container">
 				{skills.map((skill, index) => (
 					<div key={`skill-category-${index}`}>
-						<h3>{skill.category}</h3>
-						<p>{skill.skill_list.join(" | ")}</p>
+						<h3 className="skills-heading">{skill.category}</h3>
+						<p className="skills-list">
+							{skill.skill_list.join(" | ")}
+						</p>
 					</div>
 				))}
 			</div>

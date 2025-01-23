@@ -37,12 +37,12 @@ h2 {
 }
 
 h3 {
-	color: lightseagreen;
+	color: aqua;
 }
 
 h4 {
 	font-family: "Inconsolata", monospace;
-	color: aqua;
+	color: lightseagreen;
 }
 
 ::-webkit-scrollbar {
