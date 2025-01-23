@@ -28,7 +28,8 @@ h4 {
 }
 
 h1 {
-	color: aqua;
+	/* color: aqua; */
+	color: lightcyan;
 	font-size: 35px;
 }
 

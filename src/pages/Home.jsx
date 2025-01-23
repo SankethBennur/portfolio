@@ -22,11 +22,11 @@ function Home() {
 				{/* Image */}
 				<MyPicture />
 
-				{/* Contact */}
-				<Contact />
-
 				{/* Skills */}
 				<Skills />
+
+				{/* Contact */}
+				<Contact />
 			</div>
 
 			{/* Content */}

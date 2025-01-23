@@ -12,7 +12,7 @@
 
 	display: flex;
 	flex-direction: column;
-	/* justify-content: space-between; */
+	justify-content: space-between;
 	align-items: center; /* In this case, aligning horizontally */
 }
 
@@ -125,4 +125,11 @@
 
 .skills {
 	margin-top: 5px;
+}
+
+@media (max-width: 750px) {
+	.contact {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
 }
