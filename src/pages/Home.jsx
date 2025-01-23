@@ -5,6 +5,7 @@ import "./Home.css";
 import MyPicture from "../components/MyPicture";
 import Greetings from "../components/Greetings";
 
+import Contact from "../components/Contact";
 import Skills from "../components/Skills";
 
 import Certifications from "../components/Certifications";
@@ -20,6 +21,9 @@ function Home() {
 			<div className="home-right-column">
 				{/* Image */}
 				<MyPicture />
+
+				{/* Contact */}
+				<Contact />
 
 				{/* Skills */}
 				<Skills />

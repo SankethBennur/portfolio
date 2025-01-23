@@ -5,6 +5,7 @@ import "./HomeMobile.css";
 import MyPicture from "../components/MyPicture";
 import Greetings from "../components/Greetings";
 
+import Contact from "../components/Contact";
 import Skills from "../components/Skills";
 
 import Certifications from "../components/Certifications";
@@ -21,6 +22,9 @@ const HomeMobile = function () {
 
 			{/* Greetings */}
 			<Greetings />
+
+			{/* Contact */}
+			<Contact />
 
 			{/* Certifications */}
 			<Certifications />

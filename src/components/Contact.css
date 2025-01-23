@@ -1,0 +1,12 @@
+.contact {
+	display: flex;
+	flex-direction: row;
+
+	box-sizing: border-box;
+	/* margin-top: 5px; */
+	padding-bottom: 5px;
+
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
